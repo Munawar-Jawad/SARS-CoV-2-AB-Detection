@@ -1,0 +1,14 @@
+1. Please create a .csv file to generate a dataset that can be uploaded by the code. The .csv file should contain three columns, in this order: "Name", "Filepath", and "Labels".
+	1.1 Name: This column should contain image numbers in sequential, incremental form (e.g., "image1", "image2", etc.).
+	1.2 Filepath: This column should contain the full location of each image.
+	1.3 Labels: This column should contain the associated class for each image.
+
+Here is an example: 
+
+Name		Filepath					Labels
+image1		C:\AGGLUTINATION\Image\Strong\S1.jpg		strong
+image2		C:\AGGLUTINATION\Image\Negative\N8.jpg		negative
+image3		C:\AGGLUTINATION\Image\Weak\W7.jpg		weak
+image4		C:\AGGLUTINATION\Image\Moderate\M11.jpg		moderate
+......		...........................................	........
+......		...........................................	........
